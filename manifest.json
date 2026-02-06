@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Tools",
+  "description": "Tools to augment your productivity",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://gitlab.com/*/merge_requests/*"
+      ],
+      "js": [
+        "common.js",
+        "mr_in_review.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://gitlab.com/*/merge_requests/new*"
+      ],
+      "js": [
+        "common.js",
+        "create_mr.js"
+      ]
+    },
+    {
+      "matches": [
+        "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirente.action"
+      ],
+      "js": [
+        "common.js",
+        "efatura_weekday.js"
+      ]
+    }
+  ]
+}
