@@ -24,7 +24,8 @@
     },
     {
       "matches": [
-        "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirente.action"
+        "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirente.action",
+        "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirenteForm.action"
       ],
       "js": [
         "common.js",
