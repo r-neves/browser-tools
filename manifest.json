@@ -24,6 +24,15 @@
     },
     {
       "matches": [
+        "https://obnewchannel.atlassian.net/browse/*"
+      ],
+      "js": [
+        "common.js",
+        "jira_copy_ticket.js"
+      ]
+    },
+    {
+      "matches": [
         "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirente.action",
         "https://faturas.portaldasfinancas.gov.pt/resolverListaPendenciasAdquirenteForm.action"
       ],
