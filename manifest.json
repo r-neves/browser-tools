@@ -40,6 +40,16 @@
         "common.js",
         "efatura_weekday.js"
       ]
+    },
+    {
+      "matches": [
+        "https://app.seg-social.pt/sso/login*",
+        "https://www.seg-social.pt/sso/login*"
+      ],
+      "js": [
+        "common.js",
+        "seg_social_login.js"
+      ]
     }
   ]
 }
