@@ -77,6 +77,15 @@
         "common.js",
         "youtube_summarize.js"
       ]
+    },
+    {
+      "matches": [
+        "https://www.seg-social.pt/ptss/pssd/home*"
+      ],
+      "js": [
+        "common.js",
+        "seg_social_home.js"
+      ]
     }
   ]
 }
