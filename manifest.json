@@ -59,6 +59,15 @@
         "common.js",
         "acesso_gov_login.js"
       ]
+    },
+    {
+      "matches": [
+        "https://sitfiscal.portaldasfinancas.gov.pt/geral/home*"
+      ],
+      "js": [
+        "common.js",
+        "financas_home_shortcuts.js"
+      ]
     }
   ]
 }
