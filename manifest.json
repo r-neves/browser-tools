@@ -68,6 +68,15 @@
         "common.js",
         "financas_home_shortcuts.js"
       ]
+    },
+    {
+      "matches": [
+        "https://www.youtube.com/watch*"
+      ],
+      "js": [
+        "common.js",
+        "youtube_summarize.js"
+      ]
     }
   ]
 }
