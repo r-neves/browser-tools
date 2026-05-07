@@ -50,6 +50,15 @@
         "common.js",
         "seg_social_login.js"
       ]
+    },
+    {
+      "matches": [
+        "https://www.acesso.gov.pt/v2/loginForm*"
+      ],
+      "js": [
+        "common.js",
+        "acesso_gov_login.js"
+      ]
     }
   ]
 }
