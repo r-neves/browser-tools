@@ -86,6 +86,15 @@
         "common.js",
         "seg_social_home.js"
       ]
+    },
+    {
+      "matches": [
+        "https://mrocare.pt/request-a-quote/*"
+      ],
+      "js": [
+        "common.js",
+        "mrocare_fill_quote.js"
+      ]
     }
   ]
 }
