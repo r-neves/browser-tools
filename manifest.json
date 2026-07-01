@@ -69,7 +69,8 @@
     },
     {
       "matches": [
-        "https://sitfiscal.portaldasfinancas.gov.pt/geral/home*"
+        "https://sitfiscal.portaldasfinancas.gov.pt/geral/home*",
+        "https://sitfiscal.portaldasfinancas.gov.pt/geral/dashboard*"
       ],
       "js": [
         "common.js",

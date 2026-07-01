@@ -11,6 +11,10 @@ const BROKER_TOKEN = '54e72f49ddf8c0a6ef8267ef0baccb13ed105f9c0067233a';
 // short text/number/tel input with maxlength ~6).
 const CODE_FIELD_SELECTOR = '#tokenEmailContacto';
 
+// CSS selector for the submit button to click after filling the code.
+// Set to null to disable auto-submit and just fill the field.
+const SUBMIT_BUTTON_SELECTOR = '#btn2faEnviarEmail';
+
 // ---------------------------------------------------------------------------
 
 function expandLoginAccordion() {
@@ -71,7 +75,15 @@ async function fillCodeFromEmail(button) {
             if (code) {
                 setFieldValue(field, code);
                 field.focus();
-                button.textContent = 'Code filled ✓';
+                const submitBtn = SUBMIT_BUTTON_SELECTOR
+                    ? document.querySelector(SUBMIT_BUTTON_SELECTOR)
+                    : null;
+                if (submitBtn) {
+                    button.textContent = 'Code filled ✓ — submitting…';
+                    submitBtn.click();
+                } else {
+                    button.textContent = 'Code filled ✓';
+                }
                 button.disabled = false;
                 return;
             }
