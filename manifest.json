@@ -3,6 +3,13 @@
   "name": "Browser Tools",
   "description": "Tools to augment your productivity",
   "version": "1.0",
+  "host_permissions": [
+    "https://script.google.com/*",
+    "https://script.googleusercontent.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [
     {
       "matches": [
