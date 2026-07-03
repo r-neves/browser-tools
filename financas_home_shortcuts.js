@@ -1,7 +1,7 @@
 const SHORTCUT_LINKS = [
     { label: 'Recibos Verdes', url: 'https://irs.portaldasfinancas.gov.pt/recibos/portal/consultar' },
     { label: 'Declaração Periódica do IVA', url: 'https://iva.portaldasfinancas.gov.pt/dpiva/portal' },
-    { label: 'Declaração Recapitulativa do IVA', url: 'https://iva.portaldasfinancas.gov.pt/driva/portal' },
+    { label: 'Declaração Recapitulativa do IVA', url: 'https://iva.portaldasfinancas.gov.pt/driva/portal/' },
 ];
 
 // Native-styled section, matching the portal's own "Serviços Frequentes" block.
