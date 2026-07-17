@@ -3,12 +3,24 @@
   "name": "Browser Tools",
   "description": "Tools to augment your productivity",
   "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
   "host_permissions": [
     "https://script.google.com/*",
     "https://script.googleusercontent.com/*"
   ],
   "background": {
     "service_worker": "background.js"
+  },
+  "commands": {
+    "toggle-palette": {
+      "suggested_key": {
+        "default": "Alt+T",
+        "mac": "Alt+T"
+      },
+      "description": "Toggle command palette"
+    }
   },
   "content_scripts": [
     {
@@ -102,6 +114,16 @@
       "js": [
         "common.js",
         "mrocare_fill_quote.js"
+      ]
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "palette_links.js",
+        "palette.js"
       ]
     }
   ]
