@@ -105,6 +105,8 @@ var PALETTE_ENTRIES = (() => {
         // service worker); Cmd+Enter (location.href) cannot navigate to them.
         { title: 'Extension keyboard shortcuts', keywords: 'chrome rebind keys settings', url: 'chrome://extensions/shortcuts' },
         { title: 'ArgoCD (NPD)', keywords: 'argocd', url: 'https://argocd.ssv.npd.int.cynergyconnect.co.uk' },
+        // Group landing page only — deliberately not expanded into its repos.
+        { title: 'GitLab — Terraform Modules', keywords: 'gitlab terraform modules platform fusion-reboot-poc group', url: 'https://gitlab.com/cynergybank/fusion-reboot-poc/platform/terraform-modules' },
         { title: 'Extensions', keywords: 'chrome extensions', url: 'chrome://extensions/' },
     ];
 
