@@ -31,6 +31,7 @@ var PALETTE_ENTRIES = (() => {
         { name: 'Pub/Sub',           kw: 'pubsub topics subscriptions',      url: 'https://console.cloud.google.com/cloudpubsub/topic/list?project={p}' },
         { name: 'BigQuery',          kw: 'bq datasets sql warehouse',        url: 'https://console.cloud.google.com/bigquery?project={p}' },
         { name: 'IAM',               kw: 'iam permissions roles sa',         url: 'https://console.cloud.google.com/iam-admin/iam?project={p}' },
+        { name: 'PAM',               kw: 'pam privileged access entitlements grants elevate', url: 'https://console.cloud.google.com/iam-admin/pam/entitlements/my?project={p}' },
         { name: 'Secret Manager',    kw: 'secrets credentials',              url: 'https://console.cloud.google.com/security/secret-manager?project={p}' },
         { name: 'Cloud SQL',         kw: 'sql database postgres instances',  url: 'https://console.cloud.google.com/sql/instances?project={p}' },
         { name: 'Monitoring',        kw: 'metrics dashboards alerts',        url: 'https://console.cloud.google.com/monitoring?project={p}' },
